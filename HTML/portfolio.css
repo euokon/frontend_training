@@ -1,0 +1,44 @@
+body{
+    font-size: 16px;
+}
+
+header{
+/* Colors */
+/* RGB */
+/* RED , GREEN , BLUE - (0- 255) */
+/* color: rgb( 54, 120, 146); */
+/* HEX FORMAT  - Uses letter and number combinations from 0-9 and a -f */
+/* HSL */
+color: #00f4d7 ;
+font-family: 'Times New Roman', Times, serif;
+font-size: 2rem;
+font-weight: 400;
+}
+
+section {
+    /* border-style:solid;
+    border-width:6px ;
+    border-color: rgb(255 , 0 ,0); */
+    border: solid 10px orange;
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 5rem ;
+    font-size: 10px;
+    /* padding: 3rem 2rem 4rem  top left&right bottom; */
+    /* padding: 3rem 16rem  top&bottom / left&right; */
+    /* padding: 6rem 1rem 3rem 8rem; trbl */
+    /* margin: ; */
+    /* border-radius: 5px 17px 55px 20px;  TOP RIGHT BOTTOM LEFT TRBL */
+}
+
+section p {
+    font-size: 2em;
+}
+
+/* CSS UNITS */
+/* Pixels - px 
+Em - em - relative to the parent element
+Rem - rem  - relative to the body
+ViewPort Height - vh
+viweport width - vw
+percentage - % */
