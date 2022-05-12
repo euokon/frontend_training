@@ -1,0 +1,36 @@
+.normal tr, td {
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid;
+    
+}
+.normal {
+    border: 1px solid;
+}
+.normal th {
+  padding-top: 12px;
+  padding-left: 5px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+.tb {
+    border: 1px solid;
+}
+.tb tr, td {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid;
+}
+.tb th {
+    padding-left: 4px;
+    background-color: pink;
+}
+
+.fm label {
+    background-color: aqua;
+}
+.db  input{
+    color: red;
+}
