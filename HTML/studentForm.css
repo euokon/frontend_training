@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #344a72;
+    color:  #fff;
+    line-height: 1.8;
+}
+
+a{
+    text-decoration: none;
+}
+
+#container{
+    margin: 30px auto;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.form-wrap{
+    background-color: aliceblue;
+    padding: 15px 25px;
+    color: #222;
+}
+
+#container .form-wrap h1,
+#container .form-wrap p{
+    text-align: center;
+}
+#container .form-wrap h1{
+    /* 1rem = 16px i.e 1rem = 1.5 * 16 */
+    font-size: 1.5rem;
+}
+#container .form-wrap p{
+    /* 1rem = 16px i.e 1rem = 1.5 * 16 */
+    font-size: 14px;
+}
+#container .form-wrap .form-group{
+    margin-top: 10px;
+}
+#container .form-wrap .form-group label{
+    /* display: block; */
+    color: #222;
+    font-size: 15px;
+}
+/* 
+#container .form-wrap .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid red;
+    border-radius: 4px;
+}
+*/
+#container .form-wrap .form-group input[type=text],
+#container .form-wrap .form-group input[type=email],
+#container .form-wrap .form-group input[type=password]{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid red;
+    border-radius: 4px;
+}
+#container .form-wrap .form-group input[type=radio]{
+    margin-right: 40px;
+}
+#container .form-wrap .form-group input:active,
+#container .form-wrap .form-group input:focus {
+    outline: none;
+}
+#container .form-wrap button{
+    display: block;
+    background-color: #344a72;
+    width: 100%;
+    padding: 10px;
+    margin: 20px auto;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+}
+#container .form-wrap button:hover{
+    background-color: #437eeb;
+}
+#container .form-wrap .bottom-text{
+    text-align: center;
+    margin-top: 10px;
+}
+#container .form-wrap  a{
+    color: red;
+}
+#container .form-wrap a:hover{
+    color: #344a72;
+}
+#container footer{
+    text-align: center;
+    padding: 15px 0;
+}
+#container footer a{color: #fff;}
+#container footer a:hover{color: #333;}
