@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple sign up Form">
+    <meta name="keywords" content="Students, education, Form">
+    <link rel="stylesheet" href="./studentForm.css">
+    <title>Student Form </title>
+</head>
+<body>
+    <!-- ID - # or CLASS - . -->
+    <section  id="container">
+        <div class="form-wrap">
+            <h1>Sign Up</h1>
+            <p>Register for free education. It'll only take a minue.</p>
+
+            <form>
+                <div class="form-group">
+                    <label for="firstName">First name</label>
+                    <input type="text" name="firstName" placeholder="first name">
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Lastname</label>
+                    <input type="text" name="lasttName"  placeholder="last name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="enter email ...">
+                </div>
+                <div class="form-group">
+                    <h5>Sex</h5>
+                    <label for="sex">Female</label>
+                    <input type="radio" name="sex"  value="Female" checked>
+                    <label for="sex">Male</label>
+                    <input type="radio" name="sex"  value="Male">
+                    <label for="sex">Others</label>
+                    <input type="radio" name="sex"  value="Others">
+                </div>
+                <div class="form-group">
+                    <h5>Interests</h5>
+                    <input type="checkbox" name="interests" value="Politics" checked>
+                    <label for="interests">Politics</label>
+                    <input type="checkbox" name="interests" value="Religion">
+                    <label for="interests">Religion</label>
+                    <input type="checkbox" name="interests" value="Entertainment">
+                    <label for="interests">Entertainment</label>
+                    <input type="checkbox" name="interests" value="History">
+                    <label for="interests">History</label>
+                    <input type="checkbox" name="interests" value="Others">
+                    <label for="interests">Others</label>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" >
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword">Confrim Password</label>
+                    <input type="password" name="confirmPassword" >
+                </div>
+                <button type="submit" class="btn">Sign Up</button>
+                <p class="bottom-text">By clicking the sign up button, you agree to <a href="#">terms</a> and <a href="#"> conditions</a></p>
+            </form>
+        </div>
+        <footer>
+            <p> Already have an account ? <a href="#">Log In</a></p>
+        </footer>
+    </section>
+
+</body>
+</html>
