@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C S S  G R I D</title>
+</head>
+<style>
+    .grid{
+        display: grid;
+        /* CAN BE LAID OUT BOTH IN COLUMNS AND IN ROWS */
+        /* grid-template-columns: 15rem 15rem 15rem 15rem 15rem; */
+        /* grid-template-columns: repeat(3 , auto) */
+        /* grid-template-columns: repeat(4 , 1fr) */
+        grid-template-columns: 4FR 5FR 2FR 15FR 4FR;
+        grid-gap: 1.5rem;
+        margin-bottom: 1.5rem;
+
+        /* grid-template-columns: 8rem 9rem auto 14rem 15rem; */
+    }
+
+
+    .item{
+        padding: 3rem;
+        border: 1px solid turquoise;
+        background-color: #f4f4f4;
+        font-size: 1.3rem;
+        text-align: center;
+        /* margin: 2rem; */
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+        grid-gap: 1.4rem;
+    }
+    section{
+        border: 1px solid blue;
+    }
+    aside{
+        border: 1px solid teal;
+    }
+</style>
+<body>
+    <!-- While CSS Flex caters for one dimensiolal layout i.e From right to left or top to bottom, 
+        The CSS Grid does cater for 2-dimensional layout of content on our webpage. The content can be
+        laid out through multiple rows and columns. It is more efficient, powerful and more tasking relative to
+        the flexbox.
+    -->
+    <div class="grid">
+        <!-- <p>1 FR MEANS A FRACTIONAL UNIT OF OUR SCREEN . IF OUR SCREEN HAS A TOTAL WIDTH OF 10 REM , AND THERE ARE 5 ITEMS. IF THEY ALL HAVE EQUAL UNITS, 10REM/5 = 2REM</p> -->
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <!-- <div class="item">Item 6</div> -->
+    </div>
+    <hr>
+
+    <main>
+        <section>
+            <h4>Welcome To Data Analytics</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi provident, quas voluptatibus labore, consequuntur expedita sint blanditiis adipisci qui saepe. Non molestiae quis minima, a nemo adipisci ea nisi repellendus provident magnam temporibus reprehenderit iure, iste at numquam deserunt qui, alias pariatur. Nemo, voluptatibus.</p>
+        </section>
+        <aside>
+            <h4>Hello, this is the reporting team</h4>
+        </aside>
+    </main>
+</body>
+</html>
