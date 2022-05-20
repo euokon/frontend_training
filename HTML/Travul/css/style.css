@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;900&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Navbar */
+#container .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .6rem 2.5rem
+}
+#container .navbar .logo img{
+    width: 120px;
+}
+#container .navbar .navlinks ul{
+    display: flex;
+    justify-content: space-around;
+}
+#container .navbar .navlinks ul li{
+    list-style: none;
+    padding: 10px 16px;
+    color: #21334F;
+    font-weight: 500;
+}
+#container .navbar .navlinks ul li:last-child{
+    background-color: #FF8F51;
+    border-radius: 6px;
+}
+#container .navbar .navlinks ul li a{
+    text-decoration: none;
+    color: #21334F;
+    transition: all .4s ease-in;
+}
+#container .navbar .navlinks ul li a:hover{
+    text-decoration: none;
+    color: #21334F;
+    border-bottom: 3px solid #FF8F51;
+}
+/* Header Section */
+
+#container .hero-container{
+    background: url('../img/map.jpg');
+    min-height: 90vh;
+    position: relative;
+}
+#container .hero-container .hero-content{
+    color: #fff;
+    padding: 5rem 3rem;
+    /* red , green, blue, alpha */
+    background: rgba(0, 0, 0, .5);
+    min-height: inherit;
+
+}
+#container .hero-container .hero-content div p{
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+#container .hero-container .hero-content div h1{
+    font-size: 6rem;
+    line-height: 1;
+    width: 50%;
+    margin-bottom: 1.5rem;
+}
+#container .hero-container .hero-content div small{
+    font-size: 1.1rem;
+    font-weight: lighter;
+    padding: 1rem 0;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    width: 60%;
+    display: block;
+}
+#container .hero-container .hero-content div .btn {
+    padding: 1rem 2.5rem;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #FF8F51;
+    border-radius: 6px;
+    border: transparent;
+    transition: all .6s ease;
+}
+#container .hero-container .hero-content div .btn:hover{
+    background-color: #21334F;
+}
+#container  .footer{
+    background-color: #21334F;
+}
+#container .footer-container{
+    background-color: #21334F;
+    padding: 4.5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+#container .footer-container .travul {
+    
+}
+#container .footer-container .travul img{
+    width: 100px;
+}
+#container .footer-container h3{
+    color: #FF8F51;
+    font-size: 1.6rem;
+    font-weight: lighter;
+    margin-bottom: .7rem;
+}
+#container .footer-container ul li {
+    list-style: none;
+    color: #fff;
+    line-height: 2;
+}
+#container footer >  article p{
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+}
+#container footer >  article em{
+    color: #FF8F51;
+}
